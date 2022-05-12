@@ -1,0 +1,33 @@
+#setting, #rotatebutton {
+    margin-top: 0; 
+    margin-bottom: 0.5em; 
+    text-align: center;
+    font-size: 20px;    
+}
+
+#setting ul li, #rotatebutton ul li {
+    font-weight: bold; font-size: 1em;
+    padding-left: 0.75em; padding-right: 0.75em;
+    padding-top: 0.2em; padding-bottom: 0.2em;
+    margin: 0;
+    display: inline;
+    cursor: default;
+    border-left: 0;
+    border-right: 1px solid rgba(0,0,0,0.3);
+    border-top: 1px solid rgba(0,0,0,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+#setting ul li:first-of-type, #rotatebutton ul li:first-of-type {
+    border-left: 1px solid rgba(0,0,0,0.3);
+}
+
+#setting ul li:hover, #rotatebutton ul li:hover {
+    background: rgba(0,0,0,0.3);
+    position: relative;
+}
+
+canvas {
+    display: block;
+    border: 1px solid #000;
+}

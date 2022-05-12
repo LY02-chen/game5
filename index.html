@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game5</title>
+
+    <script defer src="js/constants.js"></script>
+    <script defer src="js/draw.js"></script>
+    <script defer src="js/main.js"></script>
+    <script defer src="js/rotate.js"></script>
+    <script defer src="js/buttonEvent.js"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body onselectstart="return false;" oncontextmenu="return false;">
+    <div style="display: inline;">
+        <div id="setting">
+            <ul>
+                <li id="newgame">New Game</li><li id="random">Random</li><li id="higher">Higher</li><li id="lower">lower</li>
+            </ul>
+        </div>
+        <div align="center">
+            <canvas id="cubecanvas"></canvas>
+            <div id="rotatebutton">
+                <ul id="x-right"></ul>
+                <ul id="x-left"></ul>
+                <ul id="y-front"></ul>
+                <ul id="y-back"></ul>
+                <ul id="z-right"></ul>
+                <ul id="z-left"></ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
